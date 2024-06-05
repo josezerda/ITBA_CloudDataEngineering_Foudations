@@ -1,0 +1,27 @@
+# Docker-compose.yml - Punto-2
+
+version: "3.8"
+services:
+  app-postgres-db:
+    image: postgres:16-alpine
+    hostname: app-postgres-db
+    container_name: app-postgres-db
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+    volumes:
+      - ./postgres-db:/var/lib/postgresql/data
+      - ./init.sh:/docker-entrypoint-initdb.d/init.sh
+    ports:
+      -  5455:5432
+  adminer:
+    image: adminer
+    hostname: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8080:8080
+volumes:
+  postgres-database:
+    external: true
