@@ -1,0 +1,52 @@
+# Docker-compose.yml - Punto-2
+
+version: "3.8"
+services:
+  app-postgres-db:
+    image: postgres:16-alpine
+    hostname: app-postgres-db
+    container_name: app-postgres-db
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+    volumes:
+      - ./postgres-db:/var/lib/postgresql/data
+      - ./init.sh:/docker-entrypoint-initdb.d/init.sh
+    ports:
+      -  5455:5432
+  adminer:
+    image: adminer
+    hostname: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8080:8080
+  populate-db:
+    build: ./populate-db/
+    hostname: populate-db
+    container_name: populate-db
+    volumes:
+      - ./ds_salaries:/ds_salaries
+    depends_on:
+      - app-postgres-db
+  jupyter:
+    build: ./jupyter/
+    hostname: jupyter
+    container_name: jupyter
+    restart: always
+    ports:
+      - 8888:8888     
+    volumes:
+      - ./notebook:/notebook
+    depends_on:
+      - populate-db
+
+volumes:
+  postgres-database:
+    external: true
+  populate-db:
+    external: true
+  notebook:
+    external: true
+

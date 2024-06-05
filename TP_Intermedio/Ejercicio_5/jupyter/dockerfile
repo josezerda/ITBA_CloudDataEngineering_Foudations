@@ -1,0 +1,13 @@
+# Dockerfile jupyter - Ejercicio-5
+
+FROM jupyter/scipy-notebook:5ae537728c69
+
+WORKDIR /notebook
+
+VOLUME /notebook
+
+ENV JUPYTER_TOKEN=jupyter_token
+
+ADD requirements.txt requirements.txt
+
+RUN pip install -r requirements.txt
