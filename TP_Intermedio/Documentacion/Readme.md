@@ -177,7 +177,7 @@ http://localhost:8080
 * Cuando se terminé de cargar jupyter notebook:
 
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/jupyter-notebook.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/jupyter-notebook.png" />
 </p>
 
 * Ir al browser y escribir:
@@ -189,10 +189,10 @@ http://127.0.0.1:8888/lab?token=jupyter_token
 * Ahora cargar librerias, conectarse al host:app-postgres-db a traves del puerto:5432, y escribir clave y contraseña establecidos en nuestro docker-compose.yml.
 
 ````
-%sql postgresql://postgres:postgres@app-postgres-db:5432/amir_deals
+%sql postgresql://postgres:postgres@app-postgres-db:5432/ds_salaries
 ````
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/probamos_jupyter_nb.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/probamos_jupyter_nb.png" />
 </p>
 
 Con esto ya tenemos nuestro pipeline totalmente armado, además de poder hacer todo tipo de consultas en nuestra nueva base de datos postgres.
