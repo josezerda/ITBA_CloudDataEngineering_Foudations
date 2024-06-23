@@ -197,7 +197,7 @@ http://127.0.0.1:8888/lab?token=jupyter_token
 
 Con esto ya tenemos nuestro pipeline totalmente armado, además de poder hacer todo tipo de consultas en nuestra nueva base de datos postgres.
 
-[Ir a Sección de Consultas](https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Ejercicio_5/notebook/Notebook_Consultas.ipynb)
+[Ir a Sección de Consultas](https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Ejercicio_5/notebook/Notebook_Consultas.ipynb)
 
 # Muchas Gracias.
 
