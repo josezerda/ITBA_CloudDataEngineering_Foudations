@@ -7,7 +7,7 @@
  Se eligió un Dataset llamado **ds_salaries**, un dataset que describe los salarios, mas detalle se encuentra en el [Readme.md](https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Ejercicio_1/Ejercicio_1.md) escrito en el **Ejercicio: 1**.
 
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/dataset.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/dataset.png" />
 </p>
 
 ## Tecnologías:
@@ -141,7 +141,7 @@ $ cd /home/jose/ITBA_AWS/ITBA_CloudDataEngineering_Foudations/TP_Intermedio/Ejer
 * Podemos hacer `$ tree` y ver el directorio en forma de árbol:
 
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/Imagen_tree.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/Imagen_tree.png" />
 </p>
 
 
@@ -151,7 +151,7 @@ $ cd /home/jose/ITBA_AWS/ITBA_CloudDataEngineering_Foudations/TP_Intermedio/Ejer
 $ docker compose up
 ````
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/docker_compose_up.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/docker_compose_up.png" />
 </p>
 
 * Esperar hasta que se termine de ejecutar, una vez que se termine de ejecutar docker, podemos revisar si las tablas fueron creada con adminer.
@@ -165,13 +165,13 @@ http://localhost:8080
 * Va a aparecer en pantalla para loguearnos en Adminer:
 
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/adminer.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/adminer.png" />
 </p>
 
 * Una vez logueados, probamos haciendo alguna consulta rápida para ver si todo funciona.
 
 <p align="center">
-   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/main/TP_Intermedio/Documentacion/Imagenes/probamos_consulta.png" />
+   <img src="https://github.com/josezerda/ITBA_CloudDataEngineering_Foudations/blob/Ejercicio_5/TP_Intermedio/Documentacion/Imagenes/probamos_consulta.png" />
 </p>
 
 * Cuando se terminé de cargar jupyter notebook:
