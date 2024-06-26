@@ -27,8 +27,4 @@ Crear un Pull Request con un archivo en formato **markdown** expliando el **data
 
 * Las preguntas de negocio que se podrían responder con lenguaje SQL son:
 
- 1. ¿?.
- 2. ¿?.
- 3. ¿?.
- 4. ¿?.
- 5. ¿?.
+Estan en la Jupyter Notebook "Notebook_Consultas.ipynb"
